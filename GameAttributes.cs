@@ -7,6 +7,8 @@ namespace BluegrassAdventure
     class GameAttributes : GameSettings
     {
         public int NumberOfSuspects { get; set; }
+        public int GameStatus { get; set; } = 0;
+        public int RemainingDays { get { return 15; } }
 
     }
 }

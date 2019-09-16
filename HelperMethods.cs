@@ -13,5 +13,16 @@ namespace BluegrassAdventure
                 Console.WriteLine("");
             }
         }
+        public static void ListSuspects(List<Suspect> suspects)
+        {
+            Console.Clear();
+            Console.WriteLine("List of suspects");
+            Console.WriteLine("---------------------------------------");
+
+            foreach (Suspect s in suspects)
+            {
+                Console.WriteLine(s.SuspectID + ") " + s.FirstName + " " + s.LastName);
+            }
+        }
     }
 }

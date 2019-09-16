@@ -26,6 +26,7 @@ namespace BluegrassAdventure
             Console.WriteLine("So far the police have identified " + settings.NumberOfSuspects.ToString() + " Suspects");
             Console.WriteLine("You will need to interview suspects and determine which one is the killer.");
             Console.WriteLine("Some of them will lie to you. It doesn't mean they are guilty but it is up to you to dig deeper");
+            Console.WriteLine("You have " + settings.RemainingDays.ToString() + " days to solve the case before it is closed");
             HelperMethods.LineBreaks(1);
             Console.WriteLine("Here are the list of suspects:");
             suspects = settings.CreateSuspects(settings.NumberOfSuspects);
@@ -42,16 +43,9 @@ namespace BluegrassAdventure
         }
         public void GamePlay()
         {
-            Console.Clear();
-            Console.WriteLine("List of suspects");
-            Console.WriteLine("---------------------------------------");
+            HelperMethods.ListSuspects(suspects);
 
-            foreach (Suspect s in suspects)
-            {
-                Console.WriteLine(s.SuspectID + ") " + s.FirstName + " " + s.LastName);
-            }
 
-            while()
         }
     }
 }
