@@ -1,0 +1,11 @@
+C:\Users\tiugr\source\repos\BluegrassAdventure\bin\Debug\netcoreapp2.1\BluegrassAdventure.deps.json
+C:\Users\tiugr\source\repos\BluegrassAdventure\bin\Debug\netcoreapp2.1\BluegrassAdventure.runtimeconfig.json
+C:\Users\tiugr\source\repos\BluegrassAdventure\bin\Debug\netcoreapp2.1\BluegrassAdventure.runtimeconfig.dev.json
+C:\Users\tiugr\source\repos\BluegrassAdventure\bin\Debug\netcoreapp2.1\BluegrassAdventure.dll
+C:\Users\tiugr\source\repos\BluegrassAdventure\bin\Debug\netcoreapp2.1\BluegrassAdventure.pdb
+C:\Users\tiugr\source\repos\BluegrassAdventure\obj\Debug\netcoreapp2.1\BluegrassAdventure.csprojAssemblyReference.cache
+C:\Users\tiugr\source\repos\BluegrassAdventure\obj\Debug\netcoreapp2.1\BluegrassAdventure.csproj.CoreCompileInputs.cache
+C:\Users\tiugr\source\repos\BluegrassAdventure\obj\Debug\netcoreapp2.1\BluegrassAdventure.AssemblyInfoInputs.cache
+C:\Users\tiugr\source\repos\BluegrassAdventure\obj\Debug\netcoreapp2.1\BluegrassAdventure.AssemblyInfo.cs
+C:\Users\tiugr\source\repos\BluegrassAdventure\obj\Debug\netcoreapp2.1\BluegrassAdventure.dll
+C:\Users\tiugr\source\repos\BluegrassAdventure\obj\Debug\netcoreapp2.1\BluegrassAdventure.pdb
