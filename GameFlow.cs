@@ -9,6 +9,7 @@ namespace BluegrassAdventure
         public Player player = new Player();
         public List<Suspect> suspects = new List<Suspect>();
         public GameAttributes settings = new GameAttributes();
+        public HelperMethods helper = new HelperMethods();
         Random rnd = new Random();
  
         public void GameStart()
@@ -43,6 +44,7 @@ namespace BluegrassAdventure
         }
         public void GamePlay()
         {
+            
             HelperMethods.ListSuspects(suspects);
 
 

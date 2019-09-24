@@ -24,5 +24,10 @@ namespace BluegrassAdventure
                 Console.WriteLine(s.SuspectID + ") " + s.FirstName + " " + s.LastName);
             }
         }
+        public void ListDaysRemaining(GameAttributes attributes)
+        {
+            Console.WriteLine("Days Remaining: " + attributes.RemainingDays.ToString());
+            HelperMethods.LineBreaks(3);
+        }
     }
 }
