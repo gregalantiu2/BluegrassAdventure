@@ -45,7 +45,7 @@ namespace BluegrassAdventure
         public void GamePlay()
         {
             
-            HelperMethods.ListSuspects(suspects);
+            HelperMethods.ListSuspects(suspects, settings);
 
 
         }

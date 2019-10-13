@@ -13,10 +13,11 @@ namespace BluegrassAdventure
                 Console.WriteLine("");
             }
         }
-        public static void ListSuspects(List<Suspect> suspects)
+        public static void ListSuspects(List<Suspect> suspects, GameAttributes setting)
         {
+            
             Console.Clear();
-            Console.WriteLine("List of suspects");
+            Console.WriteLine("List of suspects                                             Days Remaining: " + setting.RemainingDays.ToString());
             Console.WriteLine("---------------------------------------");
 
             foreach (Suspect s in suspects)
